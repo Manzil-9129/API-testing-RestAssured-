@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rest-Assured by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-delete(failed)">
+    <groups>
+      <run>
+        <include name="delete"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Github">
+        <methods>
+          <include name="delete"/>
+        </methods>
+      </class> <!-- Github -->
+    </classes>
+  </test> <!-- GRP-delete(failed) -->
+</suite> <!-- Failed suite [Rest-Assured by groups] -->
